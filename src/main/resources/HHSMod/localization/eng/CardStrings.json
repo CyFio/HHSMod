@@ -1,0 +1,30 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description.",
+    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:LimiterRemoval": {
+    "NAME": "LimiterRemoval",
+    "DESCRIPTION": "Double your Focus. NL Exhaust",
+    "UPGRADE_DESCRIPTION": "DDouble your Focus."
+  },
+  "${modID}:ForasForm": {
+    "NAME": "Foras Form",
+    "DESCRIPTION": "At the start of your turn, gain !M! Focus."
+  },
+  "${modID}:StrikeThePoisonous": {
+    "NAME": "StrikeThePoisonous",
+    "DESCRIPTION": "Deal !D! Damage. If the enemy is Poisoned, Gain !M! Dexterity."
+  },
+  "${modID}:DownBreak": {
+    "NAME": "DownBreak",
+    "DESCRIPTION": "Double target's Strength if not zero. NL Otherwise, double target's Weak. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Double target's Strength if not zero. NL Otherwise, double target's Weak."
+  }
+}

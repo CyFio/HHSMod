@@ -1,0 +1,15 @@
+{
+  "${modID}:PowerID": {
+    "NAME": "Ultimate Power",
+    "DESCRIPTIONS": [
+      "You are Very Cool and Strong."
+    ]
+  },
+  "${modID}:ForasFormPower": {
+    "NAME": "鸡煲形态",
+    "DESCRIPTIONS": [
+      "你的回合开始时，获得#b",
+      " #y集中。"
+    ]
+  }
+}

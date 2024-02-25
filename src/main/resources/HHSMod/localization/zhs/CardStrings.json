@@ -1,0 +1,30 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description.",
+    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:LimiterRemoval": {
+    "NAME": "突破机限",
+    "DESCRIPTION": "将你的集中翻倍。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "将你的集中翻倍。"
+  },
+  "${modID}:ForasForm": {
+    "NAME": "鸡煲形态",
+    "DESCRIPTION": "回合开始时，获得!M!集中。"
+  },
+  "${modID}:StrikeThePoisonous": {
+    "NAME": "打击毒点",
+    "DESCRIPTION": "造成!D!点伤害。如果敌人已中毒，获得!M!点敏捷。"
+  },
+  "${modID}:DownBreak": {
+    "NAME": "突破底限",
+    "DESCRIPTION": "如果目标有力量，将其力量翻倍，否则将其虚弱翻倍。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "如果目标有力量，将其力量翻倍，否则将其虚弱翻倍。"
+  }
+}
