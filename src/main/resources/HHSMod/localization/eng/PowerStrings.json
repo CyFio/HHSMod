@@ -5,6 +5,13 @@
       "You are Very Cool and Strong."
     ]
   },
+  "${modID}:DefectGodPower": {
+    "NAME": "Defect God",
+    "DESCRIPTIONS": [
+      "Whenever you play a Power card, upgrade and powerize #b",
+      " #ycard(s) in hand at random."
+    ]
+  },
   "${modID}:ForasFormPower": {
     "NAME": "Foras Form",
     "DESCRIPTIONS": [

@@ -18,6 +18,11 @@
     "NAME": "鸡煲形态",
     "DESCRIPTION": "回合开始时，获得!M!集中。"
   },
+  "${modID}:DefectGod": {
+    "NAME": "神",
+    "DESCRIPTION": "打出能力牌时，随机升级!M!张手牌，并将其改写为能力牌。",
+    "UPGRADE_DESCRIPTION": "打出能力牌时，随机升级!M!张手牌，并将其改写为能力牌。打出此卡时额外触发1次。"
+  },
   "${modID}:StrikeThePoisonous": {
     "NAME": "打击毒点",
     "DESCRIPTION": "造成!D!点伤害。如果敌人已中毒，获得!M!点敏捷。"
