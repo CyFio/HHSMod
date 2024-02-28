@@ -1,13 +1,12 @@
 package HHSMod.cards.blue.skill;
 
+import HHSMod.actions.blue.ReComputeAction;
 import HHSMod.cards.BaseCard;
 import HHSMod.util.CardStats;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.AbstractPower;
-import com.megacrit.cardcrawl.powers.FocusPower;
 
 public class ReCompute extends BaseCard {
     public static final String ID = makeID(ReCompute.class.getSimpleName());
@@ -18,21 +17,27 @@ public class ReCompute extends BaseCard {
             CardTarget.ALL_ENEMY,
             1
     );
-    public ReCompute(){
+
+    public ReCompute() {
         super(ID, info);
         this.setMagic(3, 1);
 //        this.upgradesDescription = true;
     }
 
     @Override
-    public void upgrade() {
-        super.upgrade();
+    public void triggerOnGlowCheck() {
+        this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();
+        for (AbstractMonster m : (AbstractDungeon.getCurrRoom()).monsters.monsters) {
+            if (!m.isDeadOrEscaped() && m.intent != AbstractMonster.Intent.ATTACK) {
+                this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
+                break;
+            }
+        }
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractPower power = p.getPower(FocusPower.POWER_ID);
-        addToTop(new ApplyPowerAction(p, p, new FocusPower(p, power.amount)));
+        addToTop(new ReComputeAction(p, p, magicNumber));
     }
 
     @Override

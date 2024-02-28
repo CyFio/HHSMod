@@ -1,6 +1,6 @@
 package HHSMod.powers.blue;
 
-import HHSMod.actions.DefectGodAction;
+import HHSMod.actions.blue.DefectGodAction;
 import HHSMod.powers.BasePower;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;

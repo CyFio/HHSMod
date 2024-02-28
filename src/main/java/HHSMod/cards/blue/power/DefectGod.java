@@ -1,6 +1,6 @@
 package HHSMod.cards.blue.power;
 
-import HHSMod.actions.DefectGodAction;
+import HHSMod.actions.blue.DefectGodAction;
 import HHSMod.cards.BaseCard;
 import HHSMod.powers.blue.DefectGodPower;
 import HHSMod.util.CardStats;

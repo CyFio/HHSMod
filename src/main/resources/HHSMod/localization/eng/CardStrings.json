@@ -18,6 +18,10 @@
     "NAME": "Foras Form",
     "DESCRIPTION": "At the start of your turn, gain !M! Focus."
   },
+  "${modID}:ReCompute": {
+    "NAME": "ReCompute",
+    "DESCRIPTION": "If any enemy's intent is not PURE attack, gain !M! Focus."
+  },
   "${modID}:DefectGod": {
     "NAME": "Defect God",
     "DESCRIPTION": "Whenever you play a Power card, upgrade and powerize !M! card(s) in hand at random. ",

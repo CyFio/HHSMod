@@ -1,4 +1,4 @@
-package HHSMod.actions;
+package HHSMod.actions.blue;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
