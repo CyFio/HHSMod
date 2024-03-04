@@ -18,5 +18,25 @@
       "At the start of your turn, gain #b",
       " #yFocus."
     ]
+  },
+  "${modID}:LoseFocusPower": {
+    "NAME": "Hot Reload",
+    "DESCRIPTIONS": [
+      "At the end of your turn, lose #b",
+      " #yFocus."
+    ]
+  },
+  "${modID}:ChargedBarrierPower": {
+    "NAME": "Charged Barrier",
+    "DESCRIPTIONS": [
+      "when receiving a blocked attack, trigger the passive ability of all your Orbs #b",
+      " times."
+    ]
+  },
+  "${modID}:AtkDmgToPoisonPower": {
+    "NAME": "Breaking Bad",
+    "DESCRIPTIONS": [
+      "This turn, your attacks cannot deal damage, but instead inflict the same amount of Poison. "
+    ]
   }
 }

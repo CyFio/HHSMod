@@ -22,10 +22,30 @@
     "NAME": "ReCompute",
     "DESCRIPTION": "If any enemy's intent is not PURE attack, gain !M! Focus."
   },
+  "${modID}:HotReload": {
+    "NAME": "Hot Reload",
+    "DESCRIPTION": "Gain !M! Focus. NL At the end of this turn, lose !M! Focus."
+  },
+  "${modID}:NoobReaper": {
+    "NAME": "Noob Reaper",
+    "DESCRIPTION": "Deal damage to all enemies equal to your Focus + !M! . Heal HP equal to unblocked damage. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Deals !D! damage.)",
+      ""
+    ]
+  },
+  "${modID}:ChargedBarrier": {
+    "NAME": "Charged Barrier",
+    "DESCRIPTION": "Gain !B! Block . NL Whenever you receive a blocked attack this turn, trigger the passive ability of all your Orbs !M! time(s)."
+  },
   "${modID}:DefectGod": {
     "NAME": "Defect God",
     "DESCRIPTION": "Whenever you play a Power card, upgrade and powerize !M! card(s) in hand at random. ",
     "UPGRADE_DESCRIPTION": "Whenever you play a Power card, upgrade and powerize !M! card(s) in hand at random. Trigger an extra time when playing this card. "
+  },
+  "${modID}:Bronze": {
+  "NAME": "Bronze",
+  "DESCRIPTION": "Channel !M! Bronze Orb. "
   },
   "${modID}:StrikeThePoisonous": {
     "NAME": "Strike The Poisonous",
@@ -35,5 +55,9 @@
     "NAME": "Down Break",
     "DESCRIPTION": "Double target's Strength if not zero. NL Otherwise, double target's Weak. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Double target's Strength if not zero. NL Otherwise, double target's Weak."
+  },
+  "${modID}:BreakingBad": {
+    "NAME": "Breaking Bad",
+    "DESCRIPTION": "This turn, your attacks cannot deal damage, but instead inflict the same amount of Poison. "
   }
 }

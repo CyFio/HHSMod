@@ -8,5 +8,12 @@
       " NL #yEvoke: Deal #b",
       " damage to all enemies."
     ]
+  },
+  "${modID}:BronzeOrb": {
+    "NAME": "Bronze",
+    "DESCRIPTION": [
+      "#yStasis: 【",
+      "】NL #yEvoke: Freely Play the Stasis. "
+    ]
   }
 }

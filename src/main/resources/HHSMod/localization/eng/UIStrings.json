@@ -17,5 +17,12 @@
     "TEXT": [
       "All enemies' intent is pure attack!"
     ]
+  },
+  "${modID}:BronzeStasisAction": {
+      "TEXT": [
+        "Choose a Card to Apply Stasis.",
+        "Choose ",
+        " Cards to Apply Stasis."
+      ]
   }
 }

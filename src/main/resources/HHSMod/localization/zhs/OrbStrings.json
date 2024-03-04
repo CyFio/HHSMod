@@ -8,5 +8,12 @@
       " NL #yEvoke: Deal #b",
       " damage to all enemies."
     ]
+  },
+  "${modID}:BronzeOrb": {
+    "NAME": "铜仁",
+    "DESCRIPTION": [
+      "#y凝滞：【",
+      "】, NL #y激发：免费打出凝滞卡。 "
+    ]
   }
 }

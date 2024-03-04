@@ -18,5 +18,25 @@
       "打出能力牌时，随机升级#b",
       " #y张手牌，并将其改写为能力牌。"
     ]
+  },
+  "${modID}:LoseFocusPower": {
+    "NAME": "活动机肉",
+    "DESCRIPTIONS": [
+      "在你的回合结束时，失去 #b",
+      " 点 #y集中 。"
+    ]
+  },
+  "${modID}:ChargedBarrierPower": {
+    "NAME": "充能屏障",
+    "DESCRIPTIONS": [
+      "每受到一次被完全格挡的 #y攻击 ，触发所有 充能球 被动效果 #b",
+      " 次。"
+    ]
+  },
+  "${modID}:AtkDmgToPoisonPower": {
+    "NAME": "绝命毒师",
+    "DESCRIPTIONS": [
+      "这回合，你的攻击不能造成伤害，而是给予等量的 中毒 。"
+    ]
   }
 }

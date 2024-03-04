@@ -29,7 +29,10 @@ public class LimiterRemoval extends BaseCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractPower power = p.getPower(FocusPower.POWER_ID);
-        addToTop(new ApplyPowerAction(p, p, new FocusPower(p, power.amount)));
+        if(power != null)
+        {
+            addToTop(new ApplyPowerAction(p, p, new FocusPower(p, power.amount)));
+        }
     }
 
     @Override

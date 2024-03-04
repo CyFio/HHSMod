@@ -11,29 +11,57 @@
   },
   "${modID}:LimiterRemoval": {
     "NAME": "突破机限",
-    "DESCRIPTION": "将你的集中翻倍。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "将你的集中翻倍。"
+    "DESCRIPTION": "将你的 集中 翻倍。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "将你的 集中 翻倍。"
   },
   "${modID}:ForasForm": {
     "NAME": "鸡煲形态",
-    "DESCRIPTION": "回合开始时，获得!M!集中。"
+    "DESCRIPTION": "回合开始时，获得 !M! 集中 。"
   },
   "${modID}:DefectGod": {
     "NAME": "神",
-    "DESCRIPTION": "打出能力牌时，随机升级!M!张手牌，并将其改写为能力牌。",
-    "UPGRADE_DESCRIPTION": "打出能力牌时，随机升级!M!张手牌，并将其改写为能力牌。打出此卡时额外触发1次。"
+    "DESCRIPTION": "打出能力牌时，本场战斗随机升级 !M! 张手牌，并将其改写为能力牌。",
+    "UPGRADE_DESCRIPTION": "打出能力牌时，本场战斗随机升级 !M! 张手牌，并将其改写为能力牌。打出此卡时额外触发1次。"
   },
   "${modID}:ReCompute": {
     "NAME": "观察寄点",
-    "DESCRIPTION": "如果有敌人的意图不是纯攻击，获得!M!点集中。"
+    "DESCRIPTION": "如果有敌人的意图不是纯攻击，获得 !M! 点 集中 。"
+  },
+  "${modID}:HotReload": {
+    "NAME": "活动机肉",
+    "DESCRIPTION": "获得 !M! 点 集中 。 NL 你的回合结束时，失去 !M! 点 集中 。"
+  },
+  "${modID}:NoobReaper": {
+    "NAME": "智商碾压",
+    "DESCRIPTION": "对所有敌人造成你 集中 点数+ !M! 点伤害。未被 格挡 的伤害将回复你的生命。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （造成 !D! 点伤害。）",
+      ""
+    ]
+  },
+  "${modID}:Bronze": {
+    "NAME": "铜化",
+    "DESCRIPTION": "生成 !M! 个铜质 充能球。"
+  },
+  "${modID}:ChargedBarrier": {
+    "NAME": "充能屏障",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 你在这个回合每受到一次被完全格挡的攻击，都会触发所有充能球的被动效果 !M! 次。"
   },
   "${modID}:StrikeThePoisonous": {
     "NAME": "打击毒点",
-    "DESCRIPTION": "造成!D!点伤害。如果敌人已中毒，获得!M!点敏捷。"
+    "DESCRIPTION": "造成 !D! 点伤害。如果敌人已 中毒 ，获得 !M! 点 敏捷 。"
   },
   "${modID}:DownBreak": {
     "NAME": "突破底限",
-    "DESCRIPTION": "如果目标有力量，将其力量翻倍，否则将其虚弱翻倍。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "如果目标有力量，将其力量翻倍，否则将其虚弱翻倍。"
+    "DESCRIPTION": "如果目标有 力量 ，将其 力量 翻倍，否则将其 虚弱 翻倍。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "如果目标有 力量 ，将其 力量 翻倍，否则将其 虚弱 翻倍。"
+  },
+  "${modID}:TheWorld": {
+    "NAME": "疾速",
+    "DESCRIPTION": "所有敌人获得1回合迟缓。"
+  },
+  "${modID}:BreakingBad": {
+    "NAME": "绝命毒师",
+    "DESCRIPTION": "这回合，你的攻击不能造成伤害，而是给予等量的 中毒 。"
   }
 }
