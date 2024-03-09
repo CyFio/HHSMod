@@ -1,12 +1,12 @@
 package HHSMod;
 
 import HHSMod.cards.BaseCard;
+import HHSMod.relics.BaseRelic;
+import HHSMod.relics.uncommon.BottledX;
 import basemod.AutoAdd;
 import basemod.BaseMod;
-import basemod.interfaces.EditCardsSubscriber;
-import basemod.interfaces.EditKeywordsSubscriber;
-import basemod.interfaces.EditStringsSubscriber;
-import basemod.interfaces.PostInitializeSubscriber;
+import basemod.helpers.RelicType;
+import basemod.interfaces.*;
 import HHSMod.util.GeneralUtils;
 import HHSMod.util.KeywordInfo;
 import HHSMod.util.TextureLoader;
@@ -32,7 +32,8 @@ public class HHSMod implements
         EditStringsSubscriber,
         EditKeywordsSubscriber,
         PostInitializeSubscriber,
-        EditCardsSubscriber
+        EditCardsSubscriber,
+        EditRelicsSubscriber
 {
     public static ModInfo info;
     public static String modID; //Edit your pom.xml to change this
@@ -198,5 +199,14 @@ public class HHSMod implements
                 .packageFilter(BaseCard.class) //In the same package as this class
                 .setDefaultSeen(true) //And marks them as seen in the compendium
                 .cards(); //Adds the cards
+    }
+
+    /**
+     *
+     */
+    @Override
+    public void receiveEditRelics() {
+//        new AutoAdd(modID).packageFilter(BaseRelic.class).setDefaultSeen(true).
+        BaseMod.addRelic(new BottledX(), RelicType.SHARED);
     }
 }

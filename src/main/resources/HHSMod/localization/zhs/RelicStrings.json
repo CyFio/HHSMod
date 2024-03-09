@@ -5,5 +5,12 @@
     "DESCRIPTIONS": [
       "Gain [E] at the start of your turn. [E] is an energy icon."
     ]
+  },
+  "${modID}:BottledX": {
+    "NAME": "瓶装X",
+    "FLAVOR": "Flavor text displayed in detailed relic view.",
+    "DESCRIPTIONS": [
+      "拾起时选择一张牌，在游戏开始时，该牌变为X牌。"
+    ]
   }
 }
