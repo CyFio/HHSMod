@@ -18,6 +18,7 @@ import com.evacipated.cardcrawl.modthespire.ModInfo;
 import com.evacipated.cardcrawl.modthespire.Patcher;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.localization.*;
 import org.apache.logging.log4j.LogManager;
@@ -207,6 +208,6 @@ public class HHSMod implements
     @Override
     public void receiveEditRelics() {
 //        new AutoAdd(modID).packageFilter(BaseRelic.class).setDefaultSeen(true).
-        BaseMod.addRelic(new BottledX(), RelicType.SHARED);
+//        BaseMod.addRelic(new BottledX(), RelicType.SHARED);
     }
 }

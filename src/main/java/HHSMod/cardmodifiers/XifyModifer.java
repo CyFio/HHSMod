@@ -1,5 +1,6 @@
 package HHSMod.cardmodifiers;
 
+import HHSMod.HHSMod;
 import basemod.abstracts.AbstractCardModifier;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -9,6 +10,7 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
  * 将卡牌变成X牌
  */
 public class XifyModifer extends AbstractCardModifier {
+    public static final String ID = HHSMod.makeID(XifyModifer.class.getSimpleName());
     private int basic_cost = 0;
     private int basic_damage;
     private int basic_block;
@@ -17,6 +19,11 @@ public class XifyModifer extends AbstractCardModifier {
 
     public XifyModifer(){
         priority = 99;
+    }
+
+    @Override
+    public String identifier(AbstractCard card) {
+        return ID;
     }
 
     /**
@@ -43,6 +50,7 @@ public class XifyModifer extends AbstractCardModifier {
         card.dontTriggerOnUseCard = true;
         action.amount = card.energyOnUse;
         card.dontTriggerOnUseCard = false;
+        HHSMod.logger.info("能量:" + card.costForTurn);
     }
 
     private void RefreshXify()
@@ -52,6 +60,11 @@ public class XifyModifer extends AbstractCardModifier {
         this.basic_block = card.block;
         this.basic_magic = card.magicNumber;
         card.cost = -1;
-        card.isCostModified = false;
+//        card.isCostModified = false;
+    }
+
+    public int getTimes() {
+        HHSMod.logger.info("打:" + card.energyOnUse + "次");
+        return card.energyOnUse;
     }
 }
