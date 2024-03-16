@@ -33,6 +33,14 @@
       " times."
     ]
   },
+  "${modID}:ForeignOrbsPower": {
+    "NAME": "Foreign Orbs",
+    "DESCRIPTIONS": [
+      "Orbs acquired: ",
+      ";",
+      "."
+    ]
+  },
   "${modID}:AtkDmgToPoisonPower": {
     "NAME": "Breaking Bad",
     "DESCRIPTIONS": [

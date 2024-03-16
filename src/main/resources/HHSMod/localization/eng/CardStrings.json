@@ -56,6 +56,25 @@
     "DESCRIPTION": "Double target's Strength if not zero. NL Otherwise, double target's Weak. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Double target's Strength if not zero. NL Otherwise, double target's Weak."
   },
+  "${modID}:ForeignSkill": {
+    "NAME": "Foreign Skill",
+    "DESCRIPTION": "Choose 1 from random Skills of other colors to add into your hand. NL It costs 0 this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose 1 from random Upgraded Skills of other colors to add into your hand. NL It costs 0 this turn. NL Exhaust."
+  },
+  "${modID}:ForeignPower": {
+    "NAME": "Foreign Power",
+    "DESCRIPTION": "Choose 1 from random Powers of other colors to add into your hand. NL It costs 0 this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose 1 from random Upgraded Powers of other colors to add into your hand. NL It costs 0 this turn. NL Exhaust."
+  },
+  "${modID}:ForeignOrbs": {
+    "NAME": "Foreign Orb",
+    "DESCRIPTION": "Choose 1 from random Orbs of other colors to add into your hand.",
+    "UPGRADE_DESCRIPTION": "Choose 1 from random Upgraded Orbs of other colors to add into your hand."
+  },
+  "${modID}:IronWaveOrbCard": {
+    "NAME": "Iron Wave Orb",
+    "DESCRIPTION": "Channel !M! *IronWave. "
+  },
   "${modID}:BreakingBad": {
     "NAME": "Breaking Bad",
     "DESCRIPTION": "This turn, your attacks cannot deal damage, but instead inflict the same amount of Poison. "

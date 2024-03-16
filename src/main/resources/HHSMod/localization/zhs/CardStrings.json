@@ -60,6 +60,25 @@
     "NAME": "疾速",
     "DESCRIPTION": "所有敌人获得1回合迟缓。"
   },
+  "${modID}:ForeignSkill": {
+    "NAME": "他山之技",
+    "DESCRIPTION": "从其他颜色的随机技能牌中选择1张加入手牌。这张牌在本回合耗能变为0。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "从升级过的其他颜色的随机技能牌中选择1张加入手牌。这张牌在本回合耗能变为0。 NL 消耗 。"
+  },
+  "${modID}:ForeignPower": {
+    "NAME": "他山之力",
+    "DESCRIPTION": "从其他颜色的随机能力牌中选择1张加入手牌。这张牌在本回合耗能变为0。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "从升级过的其他颜色的随机能力牌中选择1张加入手牌。这张牌在本回合耗能变为0。 NL 消耗 。"
+  },
+  "${modID}:ForeignOrbs": {
+    "NAME": "他山之球",
+    "DESCRIPTION": "从其他颜色的随机 球牌 中选择1张加入手牌。",
+    "UPGRADE_DESCRIPTION": "从升级过的其他颜色的随机 球牌 中选择1张加入手牌。"
+  },
+  "${modID}:IronWaveOrbCard": {
+    "NAME": "铁斩波球",
+    "DESCRIPTION": "生成 !M! 个 *铁斩波 球。"
+  },
   "${modID}:BreakingBad": {
     "NAME": "绝命毒师",
     "DESCRIPTION": "这回合，你的攻击不能造成伤害，而是给予等量的 中毒 。"

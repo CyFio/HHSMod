@@ -9,6 +9,16 @@
       " damage to all enemies."
     ]
   },
+  "${modID}:IronWaveOrb": {
+    "NAME": "铁斩波",
+    "DESCRIPTION": [
+      "#y被动： 在你的回合结束时，获得 #b",
+      " 格挡，对随机敌人造成 #b",
+      " 伤害。 NL #y激发： 获得 #b",
+      " 格挡，对随机敌人造成 #b",
+      " 伤害。"
+    ]
+  },
   "${modID}:BronzeOrb": {
     "NAME": "铜仁",
     "DESCRIPTION": [

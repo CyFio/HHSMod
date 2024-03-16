@@ -9,6 +9,16 @@
       " damage to all enemies."
     ]
   },
+  "${modID}:IronWaveOrb": {
+    "NAME": "IronWave",
+    "DESCRIPTION": [
+      "#yPassive: At the start of your turn, Gain #b",
+      " block, deal #b",
+      " damage to a random enemy. NL #yEvokeL Gain #b",
+      " block, deal #b",
+      " damage to a random enemy."
+    ]
+  },
   "${modID}:BronzeOrb": {
     "NAME": "Bronze",
     "DESCRIPTION": [

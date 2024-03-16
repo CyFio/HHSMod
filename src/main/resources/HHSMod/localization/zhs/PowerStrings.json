@@ -8,14 +8,14 @@
   "${modID}:ForasFormPower": {
     "NAME": "鸡煲形态",
     "DESCRIPTIONS": [
-      "你的回合开始时，获得#b",
+      "你的回合开始时，获得 #b",
       " #y集中。"
     ]
   },
   "${modID}:DefectGodPower": {
     "NAME": "神",
     "DESCRIPTIONS": [
-      "打出能力牌时，随机升级#b",
+      "打出能力牌时，随机升级 #b",
       " #y张手牌，并将其改写为能力牌。"
     ]
   },
@@ -31,6 +31,14 @@
     "DESCRIPTIONS": [
       "每受到一次被完全格挡的 #y攻击 ，触发所有 充能球 被动效果 #b",
       " 次。"
+    ]
+  },
+  "${modID}:ForeignOrbsPower": {
+    "NAME": "他山之球",
+    "DESCRIPTIONS": [
+      "本场战斗已习得：",
+      "；",
+      "。"
     ]
   },
   "${modID}:AtkDmgToPoisonPower": {

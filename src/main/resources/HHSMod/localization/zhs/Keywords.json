@@ -19,5 +19,12 @@
       "multiword_keywords"
     ],
     "DESCRIPTION": "Make sure the first element in NAMES has no underscores. The rest should use _ in the place of spaces. In card text, you'll use the underscore versions."
+  },
+  {
+    "PROPER_NAME": "Bronze",
+    "NAMES": [
+      "铜质"
+    ],
+    "DESCRIPTION": "充能求：凝滞抽牌堆的卡牌，激发时免费打出。"
   }
 ]

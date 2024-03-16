@@ -1,11 +1,10 @@
 package HHSMod;
 
 import HHSMod.cards.BaseCard;
-import HHSMod.relics.BaseRelic;
-import HHSMod.relics.uncommon.BottledX;
+import HHSMod.powers.blue.ForeignOrbsPower;
+import HHSMod.util.CardLibraryHelper;
 import basemod.AutoAdd;
 import basemod.BaseMod;
-import basemod.helpers.RelicType;
 import basemod.interfaces.*;
 import HHSMod.util.GeneralUtils;
 import HHSMod.util.KeywordInfo;
@@ -18,9 +17,9 @@ import com.evacipated.cardcrawl.modthespire.ModInfo;
 import com.evacipated.cardcrawl.modthespire.Patcher;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.localization.*;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.scannotation.AnnotationDB;
@@ -34,7 +33,10 @@ public class HHSMod implements
         EditKeywordsSubscriber,
         PostInitializeSubscriber,
         EditCardsSubscriber,
-        EditRelicsSubscriber
+        EditRelicsSubscriber,
+        StartGameSubscriber,
+        StartActSubscriber,
+        OnStartBattleSubscriber
 {
     public static ModInfo info;
     public static String modID; //Edit your pom.xml to change this
@@ -209,5 +211,28 @@ public class HHSMod implements
     public void receiveEditRelics() {
 //        new AutoAdd(modID).packageFilter(BaseRelic.class).setDefaultSeen(true).
 //        BaseMod.addRelic(new BottledX(), RelicType.SHARED);
+    }
+
+    /**
+     *
+     */
+    @Override
+    public void receiveStartGame() {
+    }
+
+    /**
+     *
+     */
+    @Override
+    public void receiveStartAct() {
+    }
+
+    /**
+     * @param abstractRoom
+     */
+    @Override
+    public void receiveOnBattleStart(AbstractRoom abstractRoom) {
+        CardLibraryHelper.refresh();
+        ForeignOrbsPower.orbs.clear();
     }
 }
