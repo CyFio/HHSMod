@@ -75,6 +75,16 @@
     "NAME": "Iron Wave Orb",
     "DESCRIPTION": "Channel !M! *IronWave. "
   },
+  "${modID}:PoisonOrbCard": {
+    "NAME": "剧毒",
+    "DESCRIPTION": "生成 !M! 个 *剧毒 充能球 。 触发所有 *剧毒 充能球 的被动效果。",
+    "UPGRADE_DESCRIPTION": "生成 !M! 个 *剧毒 充能球 。 触发所有 *剧毒 充能球 的主动效果。"
+  },
+  "${modID}:DivinityOrbCard": {
+    "NAME": "祈球",
+    "DESCRIPTION": "生成 !M! 个 *神圣 充能球 。 将一张 *洞见 加入你的抽牌堆。",
+    "UPGRADE_DESCRIPTION": "生成 !M! 个 *神圣 充能球 。 触发所有 *神圣 充能球 的主动效果。将一张 *洞见 加入你的抽牌堆。"
+  },
   "${modID}:BreakingBad": {
     "NAME": "Breaking Bad",
     "DESCRIPTION": "This turn, your attacks cannot deal damage, but instead inflict the same amount of Poison. "

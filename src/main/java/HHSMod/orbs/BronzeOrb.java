@@ -34,6 +34,7 @@ public class BronzeOrb extends AbstractOrb {
     private AbstractCard card;
 
     public BronzeOrb() {
+        this.ID = ORB_ID;
         this.baseEvokeAmount = 1;
         this.basePassiveAmount = 1;
         this.evokeAmount = this.baseEvokeAmount;

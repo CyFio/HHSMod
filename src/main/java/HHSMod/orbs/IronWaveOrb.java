@@ -25,6 +25,7 @@ public class IronWaveOrb extends AbstractOrb {
     private final static Texture ORB_IMG = TextureLoader.getTexture(HHSMod.imagePath("orbs/ironwave.png"));
 
     public IronWaveOrb() {
+        this.ID = ORB_ID;
         this.baseEvokeAmount = 5;
         this.evokeAmount = this.baseEvokeAmount;
         this.basePassiveAmount = 3;

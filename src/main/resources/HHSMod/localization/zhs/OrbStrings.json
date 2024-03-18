@@ -19,6 +19,22 @@
       " 伤害。"
     ]
   },
+  "${modID}:PoisonOrb": {
+    "NAME": "剧毒",
+    "DESCRIPTION": [
+      "#y被动： 在你的回合开始时，对随机敌人施加 #b",
+      " 层 中毒 。 NL #y激发： 对随机敌人施加 #b",
+      " 层 中毒 。"
+    ]
+  },
+  "${modID}:DivinityOrb": {
+    "NAME": "神圣",
+    "DESCRIPTION": [
+      "#y被动： 在你的回合开始，获得 #b",
+      " 真言 。 NL #y激发： 获得 #b",
+      " 真言 。"
+    ]
+  },
   "${modID}:BronzeOrb": {
     "NAME": "铜仁",
     "DESCRIPTION": [
